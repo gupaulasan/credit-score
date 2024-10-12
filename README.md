@@ -11,3 +11,13 @@ O score consiste na probabilidade de inadimplência de um novo pedido de crédit
 Esse score é uma importante ferramenta para definição de estratégias para reduzir riscos ao se oferecer crédito a clientes
 
 ## Sumário Executivo
+
+## Estrutura do projeto
+A estrutur de diretórios do projeto está organizada da seguinte forma:
+```
+.
+├── README.md
+├── notebooks
+│   └── credit_score.ipynb
+└── requirements.txt
+```
