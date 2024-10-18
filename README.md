@@ -5,19 +5,15 @@ Este repositório tem como objetivo resolver o desafio proposta pela Datarisk pa
 ## Overview
 O projeto objetiva realizar uma análise exploratória e construir modelos de machine learning para criação de um score de crédito de clientes.
 
-## Entendimento de negócio
-O score consiste na probabilidade de inadimplência de um novo pedido de crédito realizado por um cliente.
-
-Esse score é uma importante ferramenta para definição de estratégias para reduzir riscos ao se oferecer crédito a clientes
-
-## Sumário Executivo
-
 ## Estrutura do projeto
-A estrutur de diretórios do projeto está organizada da seguinte forma:
+A estrutura de diretórios do projeto está organizada da seguinte forma:
 ```
 .
 ├── README.md
 ├── notebooks
 │   └── credit_score.ipynb
+├── predictions.csv
 └── requirements.txt
 ```
+
+No arquivo `predictions.csv` encontram-se as predições de score de crédito para os clientes fornecidos.
